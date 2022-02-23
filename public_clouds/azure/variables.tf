@@ -18,6 +18,14 @@ variable "address_prefix" {
 	default = ["192.168.1.0/24"]
 }
 
-variable "vm_name_prefix" {
-	default = "kloudtom-test"
+variable "vm_name_prefix1" {
+	default = "jenkins-master"
+}
+
+variable "vm_name_prefix2" {
+	default = "jenkins-slave"
+}
+
+variable "number_of_nodes" {
+	default = 1
 }
